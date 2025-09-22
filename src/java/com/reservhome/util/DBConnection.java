@@ -8,7 +8,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/reservhome_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "tu_password";
+    private static final String PASSWORD = "Deriva123456";
 
     /**
      * Método para obtener conexión a la base de datos.

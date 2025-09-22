@@ -12,6 +12,37 @@
             color: #333;
         }
 
+        /* Navbar */
+        .navbar {
+            background-color: #003366;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar img {
+            height: 50px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Contenido principal */
         .container {
             text-align: center;
             padding: 30px;
@@ -26,6 +57,7 @@
             border-radius: 8px;
         }
 
+        /* Servicios */
         .services {
             margin-top: 30px;
             text-align: left;
@@ -37,17 +69,38 @@
         .services h2 {
             color: #003366;
         }
+
+        /* Footer */
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
 
-    <%@ include file="navbar.jsp" %>
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="<%= request.getContextPath() %>/img/hotel-logo.jpg" alt="Hotel Logo">
+        <ul>
+            <li><a href="<%= request.getContextPath() %>/index.jsp">Inicio</a></li>
+            <li><a href="<%= request.getContextPath() %>/reservas.jsp">Reservas</a></li>
+            <li><a href="<%= request.getContextPath() %>/habitaciones.jsp">Habitaciones</a></li>
+            <li><a href="<%= request.getContextPath() %>/contacto.jsp">Contacto</a></li>
+            <li><a href="<%= request.getContextPath() %>/clientes.jsp">Clientes</a></li>
+        </ul>
+    </div>
 
     <!-- Contenido principal -->
     <div class="container">
         <h1>Bienvenido al ReserVHome</h1>
         <p>Realiza tus reservas de manera fácil, rápida y segura desde nuestra plataforma.</p>
-        <img src="img/hotel-logo.jpg" alt="Hotel Logo">
+        <img src="<%= request.getContextPath() %>/img/hotel-logo.jpg" alt="Hotel Logo">
     </div>
 
     <!-- Servicios -->
@@ -61,7 +114,10 @@
         </ul>
     </div>
 
-    <%@ include file="footer.jsp" %>
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 ReserVHome. Todos los derechos reservados.
+    </div>
 
 </body>
 </html>

@@ -3,12 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/PC/Documents/NetBeansProjects/ReserVHomeF/web/index.html</file>
-            <file>file:/C:/Users/PC/Documents/NetBeansProjects/ReserVHomeF/src/java/com/reservhome/util/DBConnection.java</file>
-            <file>file:/C:/Users/PC/Documents/NetBeansProjects/ReserVHomeF/src/java/com/reservhome/model/Cliente.java</file>
-            <file>file:/C:/Users/PC/Documents/NetBeansProjects/ReserVHomeF/src/java/com/reservhome/dao/ClienteDao.java</file>
-            <file>file:/C:/Users/PC/Documents/NetBeansProjects/ReserVHomeF/src/java/com/reservhome/servlet/ClienteServlet.java</file>
-            <file>file:/C:/Users/PC/Documents/NetBeansProjects/ReserVHomeF/web/clientes.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/src/java/com/reservhome/model/Cliente.java</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/src/java/com/reservhome/dao/ClienteDAO.java</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/src/java/com/reservhome/controller/ClienteController.java</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/web/index.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/ReserVHomeF/src/java/com/reservhome/util/DBConnection.java</file>
         </group>
     </open-files>
 </project-private>
